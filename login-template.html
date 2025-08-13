@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login template</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<style>
+    body {
+       
+       height: 100%;
+        background-color: aliceblue;
+    }
+    html{
+        box-sizing: border-box;
+
+         height: 100vh;
+          margin: 0;
+        width: 100vw;
+        padding: 0;
+    }
+
+   @media (min-width: 768px) {  
+    
+    .img-container{
+        display: block !important;
+
+    }}
+    .img-container {
+        display:none;
+    }
+</style>
+<!-- Font Awesome CDN (Latest 6.x version with brand icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+ <div class=" container mx-auto h-100 p-5  rounded-2 " style="max-width: 756px;">
+    <div class="row flex-row  h-100 bg-body  ">
+        <div
+            class="col-md-5 col-sm-0  img-container h-100  p-0"
+        >
+            <img
+                src="https://images.pexels.com/photos/27178156/pexels-photo-27178156/free-photo-of-smiling-woman-sitting-and-working-on-laptop-and-tablet.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260"
+                class=" img-fluid h-100 rounded object-fit-cover"
+                alt="login page" 
+            />
+            
+        </div>
+        <div
+            class=" col-md-7 col-sm-12 my-5 px-5 "
+        >
+            <h3>Welcome to the Nucleus</h3>
+            <p>build your design system with effortlessly with our powerful components library. </p>
+             <div class="container">
+                <form>
+                    <div class="mb-3 row ">
+                        
+                        <div
+                            class="col-8 col-lg-7  "
+                        >
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="inputName"
+                                id="inputName"
+                                placeholder="Email"
+                            />
+                        </div>
+                    </div>
+                     <div class="mb-3 row">
+                        
+                        <div
+                            class="col-8  col-xs-6"
+                        >
+                            <input
+                                type="text"
+                                class="form-control   "
+                                name="inputName"
+                                id="inputName"
+                                placeholder="Password"
+                            />
+                        </div>
+                    </div>
+                    <p ><a href="#" class="fs-6 fw-light">Forgot password ?</a></p>
+                    <div class=" row justify-content-center">
+                        <div class="   col-sm-8">
+                            <button type="submit" class="btn btn-primary px-5  w-100 rounded-4 ">
+                           Login
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <p class="fw-light fs-6 d-flex justify-content-center my-2">Or</p>
+                <form action="" class="m-4">
+                    <div class=" row justify-content-center">
+                        <div class="   col-sm-8">
+                            <button type="submit" class="btn  btn-light   w-100 rounded-4 ">
+                               <i class="fa-brands fa-google"></i>
+                            Continue with Google
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                  <p><span class="fw-light text-body fs-6"> Doesn't have a account? <a href="#">Sign up</a></span></p>
+            </div>
+            
+        </div>
+        
+    </div>
+ </div>
+ 
+ 
+</body>
+</html>
